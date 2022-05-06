@@ -1,0 +1,41 @@
+server:
+  port: 8082
+
+populate:
+  list:
+#    https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=835547&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1-1591-0.015-澜磷,
+#    https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=857652&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1-60-0.01-墨岩,
+#    https://api.youpin898.com/api/market/goods/sell_order?game=csgo&goods_id=857652&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1-60-0.01-墨岩,
+#    https://www.igxe.cn/product/trade/730/614390-1300-0.3-短剑无涂装,
+#    https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=759509&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1-1300-0.3-短剑无涂装,
+#    https://www.c5game.com/gw/steamtrade/sga/sell/v1/list?itemId=553479077&delivery=0&bargain=0&levelName=&slotStickerIds=&sort=0&paintSeed=&page=1&containSticker=&reqId=16515552436009150571-1300-0.3-短剑无涂装,
+#    https://api.youpin898.com/api/homepage/es/commodity/GetCsGoPagedList-1300-0.3-短剑无涂装-2791,
+
+    https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=835780&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1-1590-0.04-印花集,
+    https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=34099&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1-2400-0.07-雷击AWP,
+    https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=887070&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1-1250-0.04-夜愿,
+    https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=835907&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1-3500-0.14-警告,
+    https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=33915&page_num=1&sort_by=default&mode=&allow_tradable_cooldown=1-8101-0.51-水栽竹,
+
+    https://www.c5game.com/gw/steamtrade/sga/sell/v1/list?itemId=808857281272217600&delivery=0&bargain=0&levelName=&slotStickerIds=&sort=0&paintSeed=&page=1&containSticker=&reqId=16515474517881763992-1590-0.04-印花集,
+    https://www.c5game.com/gw/steamtrade/sga/sell/v1/list?itemId=809585869123747840&delivery=0&bargain=0&levelName=&slotStickerIds=&sort=0&paintSeed=&page=1&containSticker=&reqId=16516379193525335462-3460-0.145-警告,
+    https://www.c5game.com/gw/steamtrade/sga/sell/v1/list?itemId=958661081649799168&delivery=0&bargain=0&levelName=&slotStickerIds=&sort=0&paintSeed=&page=1&containSticker=&reqId=16515551834791458966-1250-0.04-夜愿,
+    https://www.c5game.com/gw/steamtrade/sga/sell/v1/list?itemId=22785&delivery=0&bargain=0&levelName=&slotStickerIds=&sort=0&paintSeed=&page=1&containSticker=&reqId=16515553551438256318-2400-0.07-雷击AWP,
+    https://www.c5game.com/gw/steamtrade/sga/sell/v1/list?itemId=26422&delivery=0&bargain=0&levelName=&slotStickerIds=&sort=0&paintSeed=&page=1&containSticker=&reqId=16518585540068942504-8101-0.51-水栽竹,
+
+    https://www.igxe.cn/product/trade/730/658899-1500-0.04-印花集,
+    https://www.igxe.cn/product/trade/730/666915-1250-0.04-夜愿,
+    https://www.igxe.cn/product/trade/730/3880-2400-0.07-雷击AWP,
+    https://www.igxe.cn/product/trade/730/658733-3460-0.145-警告,
+    https://www.igxe.cn/product/trade/730/25744-8101-0.51-水栽竹,
+
+    https://api.youpin898.com/api/homepage/es/commodity/GetCsGoPagedList-2400-0.07-雷击AWP-43393,
+    https://api.youpin898.com/api/homepage/es/commodity/GetCsGoPagedList-1250-0.04-夜愿-101544,
+    https://api.youpin898.com/api/homepage/es/commodity/GetCsGoPagedList-1590-0.04-印花集-46298,
+    https://api.youpin898.com/api/homepage/es/commodity/GetCsGoPagedList-3500-0.14-警告-51909,
+    https://api.youpin898.com/api/homepage/es/commodity/GetCsGoPagedList-8101-0.51-水栽竹-43800
+
+#平台接口:
+#  buff: buff.163.com/api/market/goods/sell_order
+#  c5: www.c5game.com/gw/steamtrade/sga/sell/v1/list
+#  igex: www.igxe.cn/product/trade/
