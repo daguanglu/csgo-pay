@@ -22,7 +22,7 @@ public class CSGOConfig {
     public static Set<String> set;
 
     @Value("${populate.list:}")
-    private List<String> test;
+    public List<String> test;
 
 
     public static int count = 0;
